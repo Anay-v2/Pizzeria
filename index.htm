@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h3>Pizzeria</h3>
+        <ul>
+            <a href="#menu"><li>Menu</li></a>
+            <a href="#suggest"><li>Suggest</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <div class="main-hero">
+        <div>
+        <h2>Pizzeria</h2>
+        <p>Delicious, perfectly crafted pizza with toppings delivered at your home. Call <a href="tel:+11 1111111111">+11 1111111111</a> for more information.</p>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <h3>Menu</h3>
+        <hr>
+        <ol>
+            <li>
+                <pre>Cheesy Pizza        $50</pre>
+            </li>
+            <li>
+                <pre>Tomato Pizza        $60</pre>
+            </li>
+            <li>
+                <pre>Chicken Pizza       $45</pre>
+            </li>
+            <li>
+                <pre>Vegetable Pizza     $100</pre>
+            </li>
+            <li>
+                <pre>Non-Veg Pizza       $120</pre>
+            </li>
+            <li>
+                <pre>Pepperoni Pizza     $75</pre>
+            </li>
+            <li>
+                <pre>Extra Large Pizza   $150</pre>
+            </li>
+            <li>
+                <pre>Small Pizza         $20</pre>
+            </li>
+            <li>
+                <pre>Plain Pizza         $40</pre>
+            </li>
+            <li>
+                <pre>Mushroom Pizza      $60</pre>
+            </li>
+        </ol>
+    </div>
+    <div class="suggest" id="suggest">
+        <h3>Suggest</h3>
+        <p>Want to add something? Tell us here!</p>
+        <input type="text" placeholder="I want to add...">
+        <button class="btn" onclick="submit()">Submit</button>
+    </div>
+    <div class="contact" id="contact">
+        Mail: Pizzeria@gmail.com
+        <br>
+        Phone: +11 1111111111
+    </div>
+    <script>
+        function submit() {
+            alert('Your response has been submitted!');
+        }
+    </script>
+</body>
+</html>
